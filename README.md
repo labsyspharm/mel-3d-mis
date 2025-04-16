@@ -2,7 +2,7 @@
 
 **Authors:** Clarence Yapp, Ajit J. Nirmal, Felix Zhou, Alex Y.H. Wong, Juliann B. Tefft, Yi Daniel Lu, Zhiguo Shang, Zoltan Maliga, Paula Montero Llopis, George F Murphy, Christine G Lian, Gaudenz Danuser, Sandro Santagata, and Peter K. Sorger
 
-*This respository ([labsyspharm/mel-3d-mis](https://github.com/labsyspharm/mel-3d-mis)) hosts original code associated with the above publication for 3D image registration, intensity quantification, cell shape & orientation analysis, collagen-to-cell distance quantification, and cell interaction analysis.  Further details about accessing the primary data associated with the paper will be published here after acceptance.*
+*This respository ([labsyspharm/mel-3d-mis](https://github.com/labsyspharm/mel-3d-mis) DOI: [10.5281/zenodo.10055593](https://zenodo.org/records/10055594)) hosts original code associated with the above publication for 3D image registration, intensity quantification, cell shape & orientation analysis, collagen-to-cell distance quantification, and cell interaction analysis.  Further details about accessing the primary data associated with the paper will be published here after acceptance.*
 
 ## System Requirements
 ### Hardware requirements
