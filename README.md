@@ -19,7 +19,8 @@ Install time is typically 1 hour or less but will vary depending on network spee
 
 # Demo on running cell interaction analysis on two cells.
 ## Overview
-This demo illustrates how to assess cell type interactions between neighboring cells by measuring membrane intensities along horizontal (or vertical) line intensity profiles. A CD4 and CD8 T cell are used as an example here and is illustrated in Figure 6p-r of corresponding manuscript.
+This demo illustrates how to assess cell type interactions between neighboring cells by measuring membrane intensities along horizontal line intensity profiles. A CD4 and CD8 T cell are used as an example here and is illustrated in Figure 6p-r of corresponding manuscript. !(https://github.com/labsyspharm/mel-3d-mis/blob/main/Demo/overview.JPG)
+
 ## Instructions to run on data
 Download code found in demo folder. Update image paths to file location. Update pixel sizes to microns/pixel. Run script.
 ## Expected output and run time
