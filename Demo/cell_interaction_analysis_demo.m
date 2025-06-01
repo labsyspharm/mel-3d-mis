@@ -104,4 +104,4 @@ plot(unique_roots(idx)*pixelSize,f(unique_roots(idx)),'x','MarkerEdgeColor','red
 plot([unique_roots(idx) unique_roots(idx)]*pixelSize, [0 1],'-')
 legend ('cell1','cell2')
 
-disp(['Membrane contact distance is ' num2str(abs(contactXcoord2-contactXcoord1))])
+disp(['Membrane contact distance is ' num2str(abs(contactXcoord2-contactXcoord1)) ' microns'])
