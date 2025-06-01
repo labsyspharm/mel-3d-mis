@@ -1,3 +1,5 @@
+bfCheckJavaPath;
+
 channelA = extractChannels(1,bfGetReader('Figure 6.tif'),0,[]); %CD4
 channelB = extractChannels(2,bfGetReader('Figure 6.tif'),0,[]); %CD8
 
@@ -66,6 +68,7 @@ for i=1:numel(unique_roots)
         idx = i;
     end
 end
+contactXcoord1=unique_roots(idx)*pixelSize;
 plot(unique_roots(idx)*pixelSize,f(unique_roots(idx)),'x','MarkerEdgeColor','red','MarkerSize',12)
 plot([unique_roots(idx) unique_roots(idx)]*pixelSize, [0 1],'-')
 
@@ -96,7 +99,9 @@ for i=1:numel(unique_roots)
         idx = i;
     end
 end
+contactXcoord2=unique_roots(idx)*pixelSize;
 plot(unique_roots(idx)*pixelSize,f(unique_roots(idx)),'x','MarkerEdgeColor','red','MarkerSize',12)
 plot([unique_roots(idx) unique_roots(idx)]*pixelSize, [0 1],'-')
 legend ('cell1','cell2')
 
+disp(['Membrane contact distance is ' num2str(abs(contactXcoord2-contactXcoord1))])
