@@ -44,6 +44,14 @@ ax.tick_params(axis='both', which='major', labelsize=14)
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 
+# Overlay individual data points
+x_positions = [0, 1, 2]  # x-axis positions for each group
+data_groups = [hydrated, dehydrated, rehydrated]
+
+for x, data in zip(x_positions, data_groups):
+    jitter = np.random.normal(0, 0.05, size=len(data))  # small jitter to separate points
+    ax.scatter([x + j for j in jitter], data, color='black', zorder=10)
+
 # brackets
 bracket_positions = [max(means) + max(std_devs) + 1, max(means) + max(std_devs) + 4, max(means) + max(std_devs) + 8]
 
