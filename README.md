@@ -1,19 +1,3 @@
-# Data Access Information
------------------- 
-TABLE OF CONTENTS
-------------------
-​
-* GENERAL INFORMATION
-  * ASSOCIATED PUBLICATION
-  * RECOMMENDED CITATION
-  * USEFUL LINKS
-* ACCESS THE DATASET
-  * FILE ORGANIZATION
-  * REPOSITORY LINKS
-  * FILE LIST
-* ADDITIONAL NOTES/COMMENTS
-​
-
 # Highly Multiplexed 3D Profiling of Cell States and Immune Niches in Human Tumours
 
 **Authors:** Clarence Yapp, Ajit J. Nirmal, Felix Zhou, Alex Y.H. Wong, Juliann B. Tefft, Yi Daniel Lu, Zhiguo Shang, Zoltan Maliga, Paula Montero Llopis, George F Murphy, Christine G Lian, Gaudenz Danuser, Sandro Santagata, and Peter K. Sorger
@@ -90,7 +74,7 @@ Stitched and registered 3D multiplexed data and corresponding segmentation masks
 ​
 **You will need the following bucket name:**  
 ```
-AWS BUCKET NAME  
+s3://lsp-public-data/yapp-2023-3d-melanoma/
 ```
 ​
 *For general instructions on how to download data from AWS, see: [https://zenodo.org/records/10223574](https://zenodo.org/records/10223574)*     
