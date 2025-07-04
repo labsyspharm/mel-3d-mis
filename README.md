@@ -4,15 +4,17 @@
 
 *This respository ([labsyspharm/mel-3d-mis](https://github.com/labsyspharm/mel-3d-mis) DOI: [10.5281/zenodo.10055593](https://zenodo.org/records/10055594)) hosts original code associated with the above publication for 3D image registration, intensity quantification, cell shape & orientation analysis, collagen-to-cell distance quantification, and cell interaction analysis.  See Data Access section (below) for instructions on accessing the primary data associated with this paper.*
 
-**Please cite this data as the following:**  <Following standard APA citation format - if this data is associated with a publication, this should be the paper citation>    
-Author Last, Author F. (Year). Title of data set (Version number) [Description of form]. Location: Name of producer.    
+**Please cite this data as the following:** Yapp, C., Nirmal A.J. et al. (2025). Highly Multiplexed 3D Profiling of Cell States and Immune Niches in Human Tumours, Nature Methods.
   
 **Relevant links:** <remove links that are not relevant>  
-> * Publication DOI: [https://www.biorxiv.org/content/10.1101/2023.11.10.566670v4](https://www.biorxiv.org/content/10.1101/2023.11.10.566670v4). 
-> * Associated GitHub Repository: [labsyspharm/mel-3d-mis](https://github.com/labsyspharm/mel-3d-mis)  
-> * To view an archived record of this repository: [https://zenodo.org/records/15230302](https://zenodo.org/records/15230302) 
-> * To view the image data online, visit: [(https://www.tissue-atlas.org/atlas-datasets/yapp-nirmal-2023)](https://www.tissue-atlas.org/atlas-datasets/yapp-nirmal-2023)
-> * DOI of other publications that use the data: <If this data is being reused from a past publication, include DOI and APA citation>
+* Publication DOI: [https://www.biorxiv.org/content/10.1101/2023.11.10.566670v4](https://www.biorxiv.org/content/10.1101/2023.11.10.566670v4). 
+* Associated GitHub Repository: [labsyspharm/mel-3d-mis](https://github.com/labsyspharm/mel-3d-mis)  
+* To view an archived record of this repository: [https://zenodo.org/records/15230302](https://zenodo.org/records/15230302) 
+* To view the image data online, visit: [(https://www.tissue-atlas.org/atlas-datasets/yapp-nirmal-2023)](https://www.tissue-atlas.org/atlas-datasets/yapp-nirmal-2023)
+* DOI of other publications that use the data:
+  * Universal consensus 3D segmentation of cells from 2D segmented stacks [https://doi.org/10.1101/2024.05.03.592249](https://doi.org/10.1101/2024.05.03.592249)
+  * A Mixed Reality and 2D Display Hybrid Approach for Visual Analysis of 3D Tissue Maps. [https://doi.org/10.31219/osf.io/zka2j](https://doi.org/10.31219/osf.io/zka2j)
+
 ​<br>
 
 **Licenses/restrictions placed on the data:** CC-BY [creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
@@ -54,23 +56,16 @@ Image can be a multichannel 3D file or separated channels. Images should be gene
 5. (optional), change colors of curves following RGB convention on line 38.
 
 ​
---------------------
-ACCESS THE DATASET 
---------------------
-<Data should be uploaded to the appropriate public repository where applicable - if you are not sure which repository to use reach out to your Data Manager>
-  
-​## File organization:   
-**Each file follows the following naming convention:**    
-​
-Each folder corresponds to a patient sample (N). <Edit as needed if this folder structure does not fit the needs of your paper> 
+# Access the Datasets
+## File Organization:
  
 |File Type     | Description                                                                        | Location|
 |--------      | ----------------------------------------------------------------------------------|---------|
-|N.ims         | Stitched 3D multiplexed CyCIF image pyramid in .ims format                         | AWS     |
+|N.ims         | Stitched and registered 3D multiplexed CyCIF image pyramid in .ims format          | AWS     |
 ​
 ## AWS Data Access  
 ​
-Stitched and registered 3D multiplexed data and corresponding segmentation masks are available for download through AWS. 
+Stitched and registered 3D multiplexed data is available for download through AWS. <br>
 ​
 **You will need the following bucket name:**  
 ```
@@ -79,17 +74,25 @@ s3://lsp-public-data/yapp-2023-3d-melanoma/
 ​
 *For general instructions on how to download data from AWS, see: [https://zenodo.org/records/10223574](https://zenodo.org/records/10223574)*     
   
-If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(at)hms.harvard.edu with the subject line "bucketname: Data Access".  
+If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(at)hms.harvard.edu with the subject line "s3://lsp-public-data/yapp-2023-3d-melanoma/: Data Access".  
 ​
 ## FILE LIST  
-List all files (or folders, as appropriate for dataset organization) contained in each repository, with a brief description. If you are depositing certain file types into public, standardized repositories that already include a file index & metadata, you can link to that repository instead of listing all individual files. For all other data, (on AWS, etc) list all files.  
-​
-### N.ims
 ​
 |Patient or Biospecimen ID | File Name       | Location| File size |
 |------- | ----------------|---------|-----------|
-|ID | ID.ims | AWS     | N.N GB   |
 ​
+ LSP13626 | Dataset1-LSP13626-invasive-margin.ims | AWS | 935 GB
+ LSP13626 | Dataset1-LSP13626-melanoma-in-situ.ims | AWS | 340 GB
+ LSP13625 | Dataset2-LSP13625-invasive-margin.ims | AWS | 94 GB
+ LSP13625 | Dataset2-LSP13625-melanoma-in-situ.ims | AWS | 103 GB
+ LSP22409 | Dataset3-LSP22409.ims | AWS | 614 GB
+ LSP13357 |  LSP13357.ims | AWS | 145 GB
+ LSP17378 | LSP17378.ims | AWS | 385 GB
+ LSP18251 | LSP18251_TR3.ims | AWS | 205 GB
+ LSP18251 | LSP18251_TR4.ims | AWS | 288 GB
+ LSP18251 | LSP18251_TR5.ims | AWS | 134 GB
+ LSP22408 | LSP22408.ims | AWS | 2.5 GB
+ 
  
 
 
