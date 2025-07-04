@@ -12,6 +12,7 @@
 * To view an archived record of this repository: [https://zenodo.org/records/15230302](https://zenodo.org/records/15230302) 
 * To view the image data online, visit: [(https://www.tissue-atlas.org/atlas-datasets/yapp-nirmal-2023)](https://www.tissue-atlas.org/atlas-datasets/yapp-nirmal-2023)
 * DOI of other publications that use the data:
+  * Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma [https://doi.org/10.1158/2159-8290.CD-24-1366](https://doi.org/10.1158/2159-8290.CD-24-1366)
   * Universal consensus 3D segmentation of cells from 2D segmented stacks [https://doi.org/10.1101/2024.05.03.592249](https://doi.org/10.1101/2024.05.03.592249)
   * A Mixed Reality and 2D Display Hybrid Approach for Visual Analysis of 3D Tissue Maps. [https://doi.org/10.31219/osf.io/zka2j](https://doi.org/10.31219/osf.io/zka2j)
 
